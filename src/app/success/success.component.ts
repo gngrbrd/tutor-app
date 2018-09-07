@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector:  'app-success',
   templateUrl:  './success.component.html',
-  styleUrl:  ['./success.component.css']
+  styleUrls:  ['./success.component.css']
 })
 //must export classes for use in app.module
 export class SuccessComponent implements OnInit {
