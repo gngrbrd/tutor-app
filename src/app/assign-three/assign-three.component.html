@@ -1,0 +1,5 @@
+<button class="btn btn-primary"
+	(click)="onDisplay()">Display Details</button>
+<p *ngIf="btnToggle">This is secret message</p>
+<div *ngFor="let time of strTime"  [ngStyle]="{backgroundColor:  time >= strTime[0] +5000 ? 'blue' : 'white'   }"
+	[ngClass] = "{custom: time >= strTime[0] + 5000 ? true : false}">{{time}}</div>

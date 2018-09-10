@@ -3,20 +3,21 @@ Components
   typescript imports
     import { Component, OnInit} from '@angular/common'
     import components into app.module
-    add components to declerations array declerations[]
+    add components to declerations array
     
 Databinding
   string interpolation
-    {{stringName}} ngModel
-    import { FormsModule } from '@angular/Forms'
-    add to imports array imports[]
+    {{stringName}}
   event binding
     (click) -- button event
     (input) -- input event
-    $events property
   property binding
-    [propertyname]="propertyValue"
+    [propertyname]=""
 
-
-
-
+Directives
+  Components are directives
+  Structural directives  
+    *ngIf - evaluates to boolean expression (true or false)
+    *ngFor - <div *ngFor="let item of items; let i=index></div>  
+ngStyle
+ngClass  

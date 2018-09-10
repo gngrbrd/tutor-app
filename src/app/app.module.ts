@@ -12,6 +12,7 @@ import { SectionComponent } from './section/section.component';
 import { ServersComponent } from './servers/servers.component';
 import { ServerComponent } from './server/server.component';
 import { AssignTwoComponent } from './assign-two/assign-two.component';
+import { AssignThreeComponent } from './assign-three/assign-three.component';
 
 // add components to declerations
 @NgModule({
@@ -21,9 +22,10 @@ import { AssignTwoComponent } from './assign-two/assign-two.component';
     WarningComponent,
     ArticleComponent,
     SectionComponent,
-    ServersComponent
+    ServersComponent,
     ServerComponent,
-    AssignTwoComponent
+    AssignTwoComponent,
+    AssignThreeComponent
   ],
   imports: [
     BrowserModule,
